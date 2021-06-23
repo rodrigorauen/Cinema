@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body */
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 249, 249, 0.4)), url(../img/popcorn.jpg);
+    background-size: cover;    
+}
+h1 {
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* Header */
+
+
+/* Nav */
+nav {
+    color: oldlace; 
+    display: flex;
+    padding: 20px 0;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5),
+     rgba(255, 0, 0, 0.5));
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+a {
+    color: ivory;
+    text-decoration: none;
+}
+.logo {
+    margin-left: 10px;
+}
+.logo img {
+    max-width: 100px;
+}
+.categorias{
+    margin: 0;
+    text-decoration: none;
+}
+.categorias ul{
+    display: none;
+    position: absolute;
+}
+.categorias ul li {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.9),
+     rgba(255, 0, 0, 0.9));
+     margin: -20px;
+}
+.categorias:hover ul {
+    display: block;
+}
+.formlogin {
+    display: none;
+    width: 50px;
+}
+.formlogin fieldset {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.9),
+     rgba(255, 0, 0, 0.9));
+    color: ivory;
+    padding: 20px;
+}
+.Login:hover .formlogin {
+    display: block;
+    position: absolute;   
+}
+
+
+
+/* Main */
+.conteudo {
+    height: 1200px; 
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: large;
+    padding: 10px;
+}
+.principal:hover .conteudo {
+    box-shadow: 0 1px 25px 1px orange;
+    transition: 2s;
+}
+a:hover {
+    color: orange;
+}
+
+
+/* Section */
+.blank {
+    height: 800px;
+}
+.sinopse {
+    height: 400px;
+    font-size: large;
+    padding: 50px;
+}
+.sinopse img {
+    width: 250px;
+    height: 334px;
+    float: left;
+    padding-right: 50px;
+}
+.sinopse h4 {
+    margin: 10px;
+}
+aside {
+    float: right;
+}
+.formcadastro {
+    max-width: 500px;
+    margin: 20px auto;
+}
+.formcadastro fieldset {
+    padding: 20px 150px;
+}
+.lançamentos {
+    font-size: large;
+    padding: 30px;
+}
+.lançamentos:hover table {
+    box-shadow: 0 1px 25px 1px orange;
+}
+.lançamentos img {
+    width: 250px;
+    height: 334px;
+}
+.lançamentos table {
+    margin: 20px auto;
+}
+.lançamentos table tr {
+    border: 1px solid ivory;
+}
+.lançamentos table tr td {
+    width: 400px;
+    padding: 20px;
+}
+.lançamentostabela {
+    margin-left: 18%;
+}
+.hrtabela {
+    max-width: 80%;
+    margin: 0 18%;
+}
+
+
+/* Footer */
+footer {
+    font-size: small;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    background-image: radial-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
+}
+footer a {
+    color: ivory;
+    font-size: large;   
+}
+footer img {
+    width: 30px;
+}

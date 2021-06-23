@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body */
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 249, 249, 0.4)), url(../img/popcorn.jpg);
+    background-size: cover;
+    
+}
+h1 {
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* Header */
+
+
+/* Nav */
+nav {
+    color: oldlace; 
+    display: flex;
+    padding: 20px 0;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5),
+     rgba(255, 0, 0, 0.5));
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+a {
+    color: ivory;
+    text-decoration: none;
+}
+.logo {
+    margin-left: 10px;
+}
+.logo img {
+    max-width: 100px;
+}
+.categorias{
+    margin: 0;
+    text-decoration: none;
+}
+.categorias ul{
+    display: none;
+    position: absolute;
+}
+.categorias ul li {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.9),
+     rgba(255, 0, 0, 0.9));
+     margin: -20px;
+}
+.categorias:hover ul {
+    display: block;
+}
+.formlogin {
+    display: none;
+    width: 50px;
+}
+.formlogin fieldset {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.9),
+     rgba(255, 0, 0, 0.9));
+    color: ivory;
+    padding: 20px;
+}
+.Login:hover .formlogin {
+    display: block;
+    position: absolute;   
+}
+
+
+/* Main */
+main {
+    color: ivory;
+}
+.conteudo {
+    height: 1000px;
+    /* border: 5px solid yellow; */
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: large;
+    padding: 25px;
+}
+.videobg {
+    position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1;
+	background-size: cover; 
+}
+.principal:hover .conteudo {
+    box-shadow: 0 1px 25px 1px orange;
+    transition: 2s;
+}
+a:hover {
+    color: orange;
+}
+.aa {
+    display: none;
+    border: olive 2px solid;
+    width: 150px;
+    position: absolute;
+    margin: 0px 30px;
+}
+.aa a {
+    margin: 0 auto;
+    padding: 0px;
+}
+.bb {
+    margin-top: 50px;
+}
+.bb:hover .aa {
+    display: block;
+}
+
+
+
+/* Footer */
+footer {
+    font-size: small;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    background-image: radial-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
+}
+footer a {
+    color: ivory;
+    font-size: large;
+}
+footer img {
+    width: 30px;
+}
